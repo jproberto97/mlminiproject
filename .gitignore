@@ -19,4 +19,4 @@ notebooks/*test.csv
 tmp
 
 # Ignore models joblib in notebooks
-notebooks/*.joblib
+# notebooks/*.joblib
