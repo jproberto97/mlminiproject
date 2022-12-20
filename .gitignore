@@ -1,0 +1,22 @@
+# Ignore environment directory
+env
+
+# Ignore python generated cache
+__pycache__
+mltool/__pycache__
+
+# Ignore IDE generated files
+.idea
+
+# Ignore jupyter generated files
+
+notebooks/.ipynb_checkpoints
+notebooks/**/.ipynb_checkpoints
+notebooks/*train.csv
+notebooks/*test.csv
+
+# Ignore tmp
+tmp
+
+# Ignore models joblib in notebooks
+notebooks/*.joblib
